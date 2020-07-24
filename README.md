@@ -2,11 +2,11 @@
 
 ![](./images/cartpolegif.gif)
 
-Deep Q-Network implementation using Keras to solve the CartPole problem available in OpenAI's gym. The goal is to teach an agent to balance an inverted pendulum perfectly using reinforcement learning.
+Deep Q-Network implementation using Keras to solve the CartPole problem in OpenAI's gym. The goal is to teach an agent to balance an inverted pendulum perfectly using reinforcement learning.
 
 This was implemented using a feed forward neural network as a non-linear value function approximator.
 
-## Problem Definition (from [OpenAI's website](https://gym.openai.com/envs/CartPole-v0/)):
+## [CartPole](https://gym.openai.com/envs/CartPole-v0/) Problem Statement:
 A pole is attached by an un-actuated joint to a cart, which moves along a frictionless track. The system is controlled by applying a force of +1 or -1 to the cart. The pendulum starts upright, and the goal is to prevent it from falling over. A reward of +1 is provided for every timestep that the pole remains upright. The episode ends when the pole is more than 15 degrees from vertical, or the cart moves more than 2.4 units from the center.
 
 ## Results:
